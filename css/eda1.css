@@ -1,0 +1,181 @@
+.menu {
+  height: 1100px;
+}
+
+.menu-container {
+  height: 1060px;
+}
+
+.menu-container__eda {
+  width: 100%;
+  height: 916px;
+  display: flex;
+  justify-content: center;
+}
+.card___eda {
+  width: 856px;
+  height: 766px;
+  display: flex;
+  justify-content: space-between;
+}
+.card___eda__left {
+  width: 416px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card___eda__left-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.card___eda__right {
+  width: 306px;
+  height: 766px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.card___eda__righ-top {
+  width: 100%;
+  height: 111px;
+  border-bottom: 1px solid #333333;
+}
+
+.card___eda__righ-top p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #333333;
+}
+
+.card___eda__right-medium {
+  width: 100%;
+  height: 252px;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card___eda__right-medium-glav {
+  width: 100%;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p-price {
+  color: #333333;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.p-price span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  opacity: 0.6;
+}
+
+.kollichestvo {
+  color: #333333;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+
+.card___eda__right-medium-btn {
+  width: 259px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card___eda__right-medium-int {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  padding-left: 25px;
+  width: 59px;
+  height: 58px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.card___eda__right-medium-btn button {
+  border: none;
+  padding: 15px 30px;
+  width: 151px;
+  height: 58px;
+  background-color: #B59571;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.card___eda__right-bottom {
+  width: 100%;
+  height: 403px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card___eda__right-bottom-g {
+  width: 100%;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card___eda__right-bottom-p {
+  line-height: 120%;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+}
+
+.chekboks {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chekbok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chekbok p {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #333333;
+}
+
+.chekbok p span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  opacity: 0.5;
+}
+
+.chekbok input {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  width: 24px;
+  height: 24px;
+}
